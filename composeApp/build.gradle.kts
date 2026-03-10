@@ -46,8 +46,9 @@ compose.desktop {
 
         nativeDistributions {
             targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
-            packageName = "org.pt"
+            packageName = "Project Text"
             packageVersion = "1.0.0"
+            description = "Utility for exporting selected project files into a single text output"
         }
     }
 }
