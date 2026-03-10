@@ -1,0 +1,30 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  SIGSEGV (0xb) at pc=0x00007a0d755d32c0, pid=121893, tid=121920
+#
+# JRE version: OpenJDK Runtime Environment (21.0.10+7) (build 21.0.10+7-Ubuntu-124.04)
+# Java VM: OpenJDK 64-Bit Server VM (21.0.10+7-Ubuntu-124.04, mixed mode, sharing, tiered, compressed oops, compressed class ptrs, g1 gc, linux-amd64)
+# Problematic frame:
+# C  0x00007a0d755d32c0
+#
+# Core dump will be written. Default location: Core dumps may be processed with "/usr/lib/systemd/systemd-coredump %P %u %g %s %t 9223372036854775808 %h %d" (or dumping to /home/pppptttt/Desktop/dev/pt/composeApp/core.121893)
+#
+# If you would like to submit a bug report, please visit:
+#   https://bugs.launchpad.net/ubuntu/+source/openjdk-21
+# The crash happened outside the Java Virtual Machine in native code.
+# See problematic frame for where to report the bug.
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: -Dfile.encoding=UTF-8 -Duser.country=US -Duser.language=en -Duser.variant org.pt.MainKt
+
+Host: AMD Ryzen 9 5900X 12-Core Processor, 24 cores, 31G, Linux Mint 22.3 Zena
+Time: Tue Mar 10 13:01:49 2026 MSK elapsed time: 35.832109 seconds (0d 0h 0m 35s)
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00007a0f4c5cb330):  JavaThread "AWT-EventQueue-0" [_thread_in_native, id=121920, stack(0x00007a0ed2055000,0x00007a0ed2155000) (1024K)]
+
+Stack: [0x00007a0ed2055000,0x00007a0ed2155000],  sp=0x00007a0ed214e708,  free space=997k
